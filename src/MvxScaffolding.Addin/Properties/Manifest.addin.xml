@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionModel>
+    <Runtime>
+    </Runtime>
+    <Extension path="/MonoDevelop/Ide/ProjectTemplateCategories/other/net">
+        <Category id="mvvmcross" name="MvvmCross" />
+    </Extension>
+    <Extension path="/MonoDevelop/Ide/Templates">
+    </Extension>
+</ExtensionModel>
