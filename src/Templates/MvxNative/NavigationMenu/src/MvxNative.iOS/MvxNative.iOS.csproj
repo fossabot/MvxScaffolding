@@ -102,6 +102,8 @@
     <Compile Include="AppDelegate.cs" />
     <Compile Include="Setup.cs" />
     <Compile Include="Styles\ColorPalette.cs" />
+    <Compile Include="Views\Menu\MenuView.cs" />
+    <Compile Include="Views\Settings\SettingsView.cs" />
     <ImageAsset Include="Resources\Media.xcassets\AppIcons.appiconset\Icon-87.png">
       <Visible>false</Visible>
     </ImageAsset>
@@ -260,6 +262,7 @@
       <Kind>Framework</Kind>
     </NativeReference>
   </ItemGroup>
+  <ItemGroup />
   <!--#endif-->
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
